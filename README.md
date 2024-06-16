@@ -36,3 +36,5 @@ the function should return 17, because no double slice of array A has a sum of g
 ```
 
 (X, Y, Z)はダブルスライス。<br>
+
+このアルゴリズムは、配列を前方と後方からそれぞれスキャンし、各位置で終わる（または始まる）スライスの最大合計を計算します。その後、任意のダブルスライスの最大合計を見つけるために、これらの2つの配列を組み合わせます。
